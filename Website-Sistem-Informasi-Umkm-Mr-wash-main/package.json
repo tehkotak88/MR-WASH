@@ -3,23 +3,10 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "serve",
+    "build": "echo 'No build step required'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ibbxx/Website-Sistem-Informasi-Umkm-Mr-wash.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ibbxx/Website-Sistem-Informasi-Umkm-Mr-wash/issues"
-  },
-  "homepage": "https://github.com/ibbxx/Website-Sistem-Informasi-Umkm-Mr-wash#readme",
-  "description": "",
   "devDependencies": {
-    "vite": "^8.0.10"
+    "vite": "^5.0.0"
   }
 }
