@@ -112,14 +112,16 @@ header.scrolled {
 }
 
 .logo-img-header {
-    height: 60px;
+    height: 50px;
     width: auto;
 }
 
-.logo-img-footer {
-    height: 80px;
-    width: auto;
-    margin-bottom: 20px;
+.logo-text-nav {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-left: 10px;
 }
 
 .nav-menu ul {
@@ -203,21 +205,18 @@ header.scrolled {
     z-index: -1;
 }
 
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+.hero-badge-pill {
+    display: inline-block;
+    padding: 8px 24px;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 99px;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 700;
+    letter-spacing: 2px;
     margin-bottom: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--white);
 }
-
-.hero-badge i { color: var(--accent); }
 
 .hero h1 {
     font-family: var(--font-heading);
@@ -263,38 +262,20 @@ header.scrolled {
     transform: translateY(-3px);
 }
 
-.btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+.btn-secondary-black {
+    background: #000;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.hero-stats {
-    display: flex;
-    gap: 40px;
-}
-
-.stat-item {
-    display: flex;
-    flex-direction: column;
-}
-
-.stat-num {
-    font-size: 1.8rem;
-    font-weight: 800;
-    font-family: var(--font-heading);
-}
-
-.stat-label {
-    font-size: 0.85rem;
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.btn-secondary-black:hover {
+    background: #222;
 }
 
 /* Sections General */
