@@ -645,70 +645,16 @@ section {
 
 /* Footer */
 footer {
-    background: #020617;
-    color: var(--white);
-    padding: 80px 0 30px;
-}
-
-.footer-top {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 60px;
-    margin-bottom: 60px;
-}
-
-.footer-brand p {
-    margin-top: 20px;
-    opacity: 0.6;
-    max-width: 300px;
-}
-
-.footer-links h4, .footer-social h4 {
-    font-family: var(--font-heading);
-    font-weight: 700;
-    margin-bottom: 24px;
-}
-
-.footer-links ul li {
-    margin-bottom: 12px;
-}
-
-.footer-links ul a {
-    opacity: 0.6;
-}
-
-.footer-links ul a:hover {
-    opacity: 1;
-    color: var(--primary);
-}
-
-.social-icons {
-    display: flex;
-    gap: 16px;
-}
-
-.social-icons a {
-    width: 45px;
-    height: 45px;
-    background: rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 1.2rem;
-}
-
-.social-icons a:hover {
-    background: var(--primary);
-    transform: translateY(-3px);
-}
-
-.footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-    padding-top: 30px;
+    background: #0F172A;
+    color: #E2E8F0;
+    padding: 40px 20px 60px;
     text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.5;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.9;
 }
 
 /* Floating WA Button */
