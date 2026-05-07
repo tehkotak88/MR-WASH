@@ -111,29 +111,15 @@ header.scrolled {
     box-shadow: 0 4px 12px rgba(0, 86, 255, 0.3);
 }
 
-.logo-icon.white {
-    background: var(--white);
-    color: var(--primary);
+.logo-img-header {
+    height: 60px;
+    width: auto;
 }
 
-.logo-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-text .main-text {
-    font-family: var(--font-heading);
-    font-weight: 800;
-    font-size: 1.4rem;
-    line-height: 1;
-    letter-spacing: 1px;
-}
-
-.logo-text .sub-text {
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 3px;
-    color: var(--primary);
+.logo-img-footer {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
 }
 
 .nav-menu ul {
